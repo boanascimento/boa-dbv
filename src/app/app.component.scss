@@ -1,0 +1,9 @@
+@import "../styles.scss";
+
+.main-secction {
+  font-size: 16px;
+
+  @include respond-to(xs) {
+    margin: $margin-xl 0px;
+  }
+}
